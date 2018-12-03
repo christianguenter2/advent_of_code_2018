@@ -1,0 +1,1 @@
+puts File.open("input.txt", "r").to_a.map{ |x| x.to_i}.inject(:+)
